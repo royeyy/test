@@ -1,4 +1,4 @@
-=========Dockerfile begin=========
+#=========Dockerfile begin=========
 FROM ubuntu:14.04
 
 # 签名
@@ -20,4 +20,4 @@ EXPOSE 3306
 VOLUME ["/var/lib/mysql/"]
 # 设置启动容器时启动mysql
 ENTRYPOINT ["/usr/bin/mysqld_safe"]
-=========Dockerfile end=========
+#=========Dockerfile end=========
